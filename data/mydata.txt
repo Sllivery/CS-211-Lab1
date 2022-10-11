@@ -1,0 +1,74 @@
+
+*********** Register Reuse ***********
+error detected at function dgemm2, matrix size = 66.
+error detected at function dgemm3, matrix size = 66.
+error detected at function dgemm2, matrix size = 126.
+error detected at function dgemm3, matrix size = 126.
+error detected at function dgemm2, matrix size = 258.
+error detected at function dgemm3, matrix size = 258.
+error detected at function dgemm2, matrix size = 510.
+error detected at function dgemm3, matrix size = 510.
+error detected at function dgemm2, matrix size = 1026.
+error detected at function dgemm3, matrix size = 1026.
+error detected at function dgemm2, matrix size = 2046.
+error detected at function dgemm3, matrix size = 2046.
+dgemm0 -   66: elapsed time is  0.00384 second(s).
+dgemm0 -  126: elapsed time is  0.01230 second(s).
+dgemm0 -  258: elapsed time is  0.10659 second(s).
+dgemm0 -  510: elapsed time is  1.25615 second(s).
+dgemm0 - 1026: elapsed time is  8.87883 second(s).
+dgemm0 - 2046: elapsed time is 81.69175 second(s).
+dgemm1 -   66: elapsed time is  0.00054 second(s).
+dgemm1 -  126: elapsed time is  0.00364 second(s).
+dgemm1 -  258: elapsed time is  0.03513 second(s).
+dgemm1 -  510: elapsed time is  0.48414 second(s).
+dgemm1 - 1026: elapsed time is  4.06682 second(s).
+dgemm1 - 2046: elapsed time is 38.74873 second(s).
+dgemm2 -   66: elapsed time is  0.00023 second(s).
+dgemm2 -  126: elapsed time is  0.00159 second(s).
+dgemm2 -  258: elapsed time is  0.01378 second(s).
+dgemm2 -  510: elapsed time is  0.13637 second(s).
+dgemm2 - 1026: elapsed time is  1.42863 second(s).
+dgemm2 - 2046: elapsed time is 12.55735 second(s).
+dgemm3 -   66: elapsed time is  0.00013 second(s).
+dgemm3 -  126: elapsed time is  0.00104 second(s).
+dgemm3 -  258: elapsed time is  0.01189 second(s).
+dgemm3 -  510: elapsed time is  0.12007 second(s).
+dgemm3 - 1026: elapsed time is  1.21276 second(s).
+dgemm3 - 2046: elapsed time is 11.86052 second(s).
+
+*********** Cache reuse ***********
+error detected at function ijk , matrix size = 2000.
+error detected at function jik , matrix size = 2000.
+error detected at function kij , matrix size = 2000.
+error detected at function ikj , matrix size = 2000.
+error detected at function jki , matrix size = 2000.
+error detected at function kji , matrix size = 2000.
+error detected at function bijk, matrix size = 2000.
+error detected at function bjik, matrix size = 2000.
+error detected at function bkij, matrix size = 2000.
+error detected at function bikj, matrix size = 2000.
+error detected at function bjki, matrix size = 2000.
+error detected at function bkji, matrix size = 2000.
+ijk : elapsed time is  0.00000 second(s).
+jik : elapsed time is  0.00000 second(s).
+kij : elapsed time is  0.00000 second(s).
+ikj : elapsed time is  0.00000 second(s).
+jki : elapsed time is  0.00000 second(s).
+kji : elapsed time is  0.00000 second(s).
+bijk: elapsed time is  0.00000 second(s).
+bjik: elapsed time is  0.00000 second(s).
+bkij: elapsed time is  0.00000 second(s).
+bikj: elapsed time is  0.00000 second(s).
+bjki: elapsed time is  0.00000 second(s).
+bkji: elapsed time is  0.00000 second(s).
+
+*********** Cache reuse - Part 4. ***********
+O0 : error detected at part4, matrix size = 2040.
+elapsed time is  0.00000 second(s).
+O1 : error detected at part4, matrix size = 2040.
+elapsed time is  0.00000 second(s).
+O2 : error detected at part4, matrix size = 2040.
+elapsed time is  0.00000 second(s).
+O3 : error detected at part4, matrix size = 2040.
+elapsed time is  0.00000 second(s).
